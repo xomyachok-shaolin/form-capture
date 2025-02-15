@@ -2,7 +2,14 @@
   "name": "@form-capture/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx run form-capture:dev",
+    "build": "nx run form-capture:build",
+    "start": "nx serve form-capture",
+    "lint": "nx lint form-capture",
+    "test": "nx test form-capture",
+    "e2e": "nx e2e form-capture"
+  },
   "private": true,
   "dependencies": {
     "next": "~15.1.4",
